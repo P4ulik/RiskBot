@@ -1,0 +1,18 @@
+# Окружение Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Приватные данные и базы
+documents.json
+export.xlsx
+temp_*
+
+# Веса модели (они слишком тяжелые для Git, их скачивают отдельно)
+model/
+results/
+
+# Настройки IDE
+.idea/
+.vscode/
